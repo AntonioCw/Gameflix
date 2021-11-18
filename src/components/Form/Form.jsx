@@ -26,7 +26,7 @@ class Form extends Component {
                 <Input type="text" placeholder="Sobrenome" />
                 <Input type="text" placeholder="Email" />
                 <Input type="password" placeholder="Senha" />
-                <Link to="/"><Button label="Submit" className="btn"/></Link>
+                <Link to="/"><Button label="Cadastrar" className="btn"/></Link>
             </Formulario>
         );
     }

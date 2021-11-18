@@ -25,7 +25,7 @@ class Login extends Component {
                 <Formulario>
                 <Input type="text" placeholder="Email" />
                 <Input type="password" placeholder="Senha" />
-                <Link to="/UserPage"><Button label="Submit" className="btn"/></Link>
+                <Link to="/UserPage"><Button label="Entrar" className="btn"/></Link>
             </Formulario>
             </section>
          );

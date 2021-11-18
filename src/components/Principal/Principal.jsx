@@ -8,6 +8,9 @@ import VideoCard3 from "../../Assets/VideoCard-3.png"
 import VideoCard4 from "../../Assets/VideoCard-4.png"
 import exampleImage from "../../Assets/img-game.png"
 import gamer from "../../Assets/hardcore-gamer.jpg"
+import felipe from "../../Assets/Felipe.jpg"
+import moacyr from "../../Assets/Moacyr.jpg"
+import antonio from "../../Assets/antonio.jpeg"
 import Button from "../Button"
 import "./style.css"
 import style from 'styled-components';
@@ -51,18 +54,18 @@ class Principal extends Component {
                         <h1>O que os Clientes estão falando</h1>
                         <div className="client-list">
                             <div className="client">
-                                <img src={gamer} alt="gamer" className="gamer gamer-th" />
-                                <h3>Fulano da Silva</h3>
+                                <img src={felipe} alt="gamer" className="gamer gamer-th" />
+                                <h3>Felipe</h3>
                                 <p className="description">Muito bom, consigo ter acesso a uma grande variedade de games, além de poder jogar onde e quando quiser com meus amigos!</p>
                             </div>
                             <div className="client">
-                                <img src={gamer} alt="gamer" className="gamer" />
-                                <h3>Fulano da Silva</h3>
+                                <img src={antonio} alt="gamer" className="gamer gamer-th"/>
+                                <h3>Antonio</h3>
                                 <p className="description">Amei o Catalogo de jogos, jogo todos os dias estou completamente viciado.</p>
                             </div>
                             <div className="client">
-                                <img src={gamer} alt="gamer" className="gamer gamer-th" />
-                                <h3>Fulano da Silva</h3>
+                                <img src={moacyr} alt="gamer" className="gamer gamer-th" />
+                                <h3>Moacyr</h3>
                                 <p className="description">Plataforma é exelente, grande catalogo de jogos, só games de primeira, é sensacional o serviço, estão de parabéns!</p>
                             </div>
                         </div>

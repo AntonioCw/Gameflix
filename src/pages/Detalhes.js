@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import Banner from '../Assets/BannerMain.png'
 import Carousel from '../components/Carousel';
 import Footer from '../components/Footer'
+import witcher from '../Assets/the-witcher.jpg';
 
 const Main = styled.div`
     width: 100%;
@@ -47,14 +48,14 @@ function Detalhes() {
             <Header />
             <Main>
                 <Topo>
-                    <Img src={Banner} alt="jogo"></Img>
+                    <Img src={witcher} alt="jogo"></Img>
                 </Topo>
                 <Info>
                     <FlexItem>
                         <h2>Detalhes</h2>
                         <button className="btn">Jogar</button>
                     </FlexItem>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et varius tortor, vestibulum bibendum elit. Pellentesque diam turpis, viverra vel molestie ac, vulputate ut felis. Duis interdum commodo ultricies. In hac habitasse platea dictumst. Donec scelerisque justo ut purus rhoncus luctus. Aenean lobortis diam magna, eget sollicitudin ex scelerisque in. Etiam tincidunt, erat quis tincidunt mollis, eros odio placerat lorem, sit amet bibendum lectus erat ac orci. Ut mattis eget lorem vitae iaculis.</p>
+                    <p>O mundo de The Witcher 3 é vasto e contínuo, porém diverso, com cada uma de suas terras inspiradas por diferentes referências e fontes culturais. Terra de Ninguém: um território de guerra, esparsamente populado, baseado na mitologia eslava. Pântanos e florestas sombrias e primevas, onde monstros espreitam atrás de cada árvore e ninguém que passa por lá sabe se verá outra aurora. Um lugar de anarquia, onde a força dá poder e o ouro compra vidas.</p>
                     <h2>Requisitos</h2>
                     <FlexItem>
                         <Paragrafo>MÍNIMOS:
